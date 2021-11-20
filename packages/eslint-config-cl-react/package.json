@@ -6,18 +6,14 @@
   "homepage": "https://gitlab.com/catalinleca95/cl-tools#readme",
   "license": "ISC",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/catalinleca95/cl-tools.git"
+  "engines": {
+    "node": ">=10"
   },
   "peerDependencies": {
-    "eslint": ">= 8",
-    "eslint-config-prettier": ">= 8",
+    "eslint": ">= 7",
+    "eslint-config-prettier": ">= 6",
     "eslint-plugin-import": ">= 2",
-    "eslint-plugin-jest": ">= 25",
+    "eslint-plugin-jest": ">= 24",
     "eslint-plugin-prettier": ">= 3",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4"

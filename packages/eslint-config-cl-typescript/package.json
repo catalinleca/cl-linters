@@ -6,17 +6,13 @@
   "homepage": "https://gitlab.com/catalinleca95/cl-tools#readme",
   "license": "ISC",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/catalinleca95/cl-tools.git"
+  "engines": {
+    "node": ">=10"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 4",
     "@typescript-eslint/parser": ">=4",
-    "eslint": ">= 8",
+    "eslint": ">= 7",
     "eslint-import-resolver-typescript": ">= 2",
     "eslint-plugin-import": ">= 2",
     "typescript": ">= 3"
