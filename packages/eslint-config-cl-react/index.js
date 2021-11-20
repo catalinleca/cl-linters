@@ -11,8 +11,6 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
         "prettier",
-        "prettier/react",
-        "prettier/prettier"
     ],
     globals: {
         process: false
@@ -61,7 +59,7 @@ module.exports = {
                 ignoreReadBeforeAssign: true
             }
         ],
-        "prettier/prettier": [
+        "prettier": [
             "warn",
             {
                 endOfLine: "lf",
