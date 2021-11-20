@@ -1,0 +1,16 @@
+{
+  "name": "cl-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "My personal eslint packages",
+  "main": "index.js",
+  "repository": "https://gitlab.com/catalinleca95/cl-tools.git",
+  "author": "Catalin Leca <leca.catalin1995@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
