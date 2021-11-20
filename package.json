@@ -1,6 +1,5 @@
 {
   "name": "cl-tools",
-  "private": true,
   "version": "1.0.0",
   "description": "My personal eslint packages",
   "main": "index.js",
@@ -14,11 +13,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx ./ --fix",
     "prettier": "prettier --check **/*.{tsx,ts,js,jsx,json,css,scss,md,html}",
-    "prettier-fix": "prettier --write **/*.{tsx,ts,js,jsx,json,css,scss,md,html}",
-    "publish:major": "lerna publish major --no-commit-hooks --registry https://nexus.tools.ci.vodafone.com/repository/npm-hosted/",
-    "publish:minor": "lerna publish minor --no-commit-hooks --registry https://nexus.tools.ci.vodafone.com/repository/npm-hosted/",
-    "publish:patch": "lerna publish patch --no-commit-hooks --registry https://nexus.tools.ci.vodafone.com/repository/npm-hosted/",
-    "publish:canary": "lerna publish --canary --no-commit-hooks --no-git-reset --registry https://nexus.tools.ci.vodafone.com/repository/npm-hosted/"
+    "prettier-fix": "prettier --write **/*.{tsx,ts,js,jsx,json,css,scss,md,html}"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
