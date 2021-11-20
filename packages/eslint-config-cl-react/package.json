@@ -25,5 +25,14 @@
   },
   "bugs": {
     "url": "https://gitlab.com/catalinleca95/cl-tools/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 8",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jest": ">= 25",
+    "eslint-plugin-prettier": ">= 3",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-react-hooks": ">= 4"
   }
 }
