@@ -59,7 +59,7 @@ module.exports = {
                 ignoreReadBeforeAssign: true
             }
         ],
-        "prettier": [
+        "prettier/prettier": [
             "warn",
             {
                 endOfLine: "lf",
