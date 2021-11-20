@@ -1,0 +1,6 @@
+**/node_modules/**
+
+**/CHANGELOG.md
+.eslintignore
+.prettierignore
+yarn.lock
