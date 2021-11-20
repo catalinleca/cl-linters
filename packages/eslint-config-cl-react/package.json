@@ -6,13 +6,6 @@
   "homepage": "https://gitlab.com/catalinleca95/cl-tools#readme",
   "license": "ISC",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/catalinleca95/cl-tools.git"
-  },
   "peerDependencies": {
     "eslint": ">= 8",
     "eslint-config-prettier": ">= 8",
