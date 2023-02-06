@@ -1,6 +1,6 @@
 # cl-tools
 
-
+# If you want a nice linter for your React app or Typescript based app (or both) you can give it a shot, it's free!
 
 ## Getting started
 
